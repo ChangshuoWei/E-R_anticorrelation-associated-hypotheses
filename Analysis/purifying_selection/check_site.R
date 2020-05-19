@@ -34,7 +34,7 @@ kaks_site <- read.table('KaKs_site_paml.txt' , sep= '\t')
 non_syn_once_test <- cbind(non_syn_once_test,kaks_site)
   non_syn_once_test$odd_ratio <- NA
   non_syn_once_test$p_value <- NA
-for (i in 1:10) {
+for (i in 1:9) {
     non_syn_once_test[i,7] <-fisher.test(matrix(c(non_syn_once_test[i,2],non_syn_once_test[i,3],(non_syn_once_test[i,4]-non_syn_once_test[i,2]),(non_syn_once_test[i,5]-non_syn_once_test[i,3])),nrow=2))$p.value
     non_syn_once_test[i,6] <-fisher.test(matrix(c(non_syn_once_test[i,2],non_syn_once_test[i,3],(non_syn_once_test[i,4]-non_syn_once_test[i,2]),(non_syn_once_test[i,5]-non_syn_once_test[i,3])),nrow=2))$estimate
   }

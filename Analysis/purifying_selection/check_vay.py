@@ -36,3 +36,13 @@ for lines in fr:
         continue
 fr.close()
 fw.close()
+fr = open("check_var.txt")
+fw = open("abstract.txt","w")
+
+for lines in fr:
+    if lines.startswith("hCoV"):
+        continue
+    else:
+        fw.write(lines.upper())
+fr.close()
+fw.close()

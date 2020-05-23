@@ -14,7 +14,7 @@ sum(distri$X1.1000 >=0.6)
 sum(AGM_E_R$coverage)
 colnames(distri)[1] <- "rho"
 fig2e <- ggplot(distri,aes(rho))
-fig2e <- fig3f + 
+fig2e <- fig2e + 
   geom_histogram(bins = 25,color = "#1368ac",fill = '#1368ac')+
   geom_vline(xintercept = 0.6,color="#de404c")+
   my_theme2

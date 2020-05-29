@@ -31,3 +31,10 @@ vplayout <- function(x,y)
   viewport(layout.pos.row = x,layout.pos.col = y)
 print(fig5b,vp=vplayout(1,1))
 dev.off()
+
+library(meta)
+library(dmetar)
+meta_data <- read.table("meta_three_ virus.txt",header = T)
+m.cor <- metacor(cor, n, data=meta_data, studlab = meta_data$virus, sm = "ZCOR", method.tau = "SJ")
+summary(m.cor)
+

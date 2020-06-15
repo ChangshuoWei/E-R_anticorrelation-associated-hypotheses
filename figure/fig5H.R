@@ -1,0 +1,5 @@
+library(meta)
+library(dmetar)
+meta_data <- read.table("meta_eight_virus.txt",header = T)
+m.cor <- metacor(cor, n, data=meta_data, studlab = meta_data$virus, sm = "ZCOR", method.tau = "SJ")
+summary(m.cor)

@@ -1,2 +1,2 @@
-We tested the E-R anticorrelation in with an RNA viurs, SARS-CoV-2, to verify the cytotoxicity aviodance hypothesis. We did not observe an E-R anticorrealtion in this viurs, providing evidence for the cytotoxicity aviodance hypothesis. 
-This code includes all the code to generate the figures in the paper entitled:"On the missing anticorrelation between the rate of protein sequence evolution and the expression level in SARS-CoV-2".
+We tested the E-R anticorrelation in with eight RNA viurses, to verify the cytotoxicity aviodance hypothesis. We did not observe an E-R anticorrealtion in these viurses, providing evidence for the cytotoxicity aviodance hypothesis. 
+This code includes all the code to generate the figures in the paper entitled:"On the missing anticorrelation between expression level and protein evolutionary rate in viruses".

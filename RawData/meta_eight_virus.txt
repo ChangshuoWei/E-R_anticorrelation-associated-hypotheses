@@ -1,0 +1,9 @@
+virus   cor	n
+SARS-CoV-2	0.60	9
+mers	0.26	8
+h1n1	0.60	10
+ebola 	0.39	7
+rabies	-0.10	5
+newcastle	0.20	6
+Mumps	-0.14	6
+Measles	0.20	6

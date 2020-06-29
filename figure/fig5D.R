@@ -1,4 +1,4 @@
-rabies <- read.table("rabies.txt",sep = "\t",header=T)
+rabies <- read.table("HRSV.txt",sep = "\t",header=T)
 library(ggplot2)
 library(grid)
 plot(log2(rabies$expression),log2(rabies$erate))

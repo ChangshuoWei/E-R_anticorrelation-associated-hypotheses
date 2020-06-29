@@ -1,2 +1,2 @@
-We tested the E-R anticorrelation in with eight RNA viurses, to verify the cytotoxicity aviodance hypothesis. We did not observe an E-R anticorrealtion in these viurses, providing evidence for the cytotoxicity aviodance hypothesis. 
-This code includes all the code to generate the figures in the paper entitled:"On the missing anticorrelation between expression level and protein evolutionary rate in viruses".
+We tested the E-R anticorrelation in with eight RNA viurses, to verify the cytotoxicity aviodance hypothesis. We did not observe an E-R anticorrealtion in these viurses, providing an evidence for the cytotoxicity aviodance hypothesis. 
+This code includes all the code to generate the figures in the paper entitled:"The missing expression level-evolutionary rate anticorrelation in viruses supports the cytotoxicity avoidance hypothesis".

@@ -1,4 +1,4 @@
-newcastle <- read.table("newcastle.txt",sep = "\t",header=T)
+newcastle <- read.table("HPIV.txt",sep = "\t",header=T)
 library(ggplot2)
 library(grid)
 plot(log2(newcastle$expression),log2(newcastle$erate))

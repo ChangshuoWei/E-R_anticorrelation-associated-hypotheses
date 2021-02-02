@@ -7,3 +7,5 @@ rabies	-0.10	5
 newcastle	0.20	6
 Mumps	-0.14	6
 Measles	0.20	6
+Vaccinia  0.12  199
+herpes  0.0001  155
